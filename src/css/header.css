@@ -1,0 +1,145 @@
+.header__grid {
+  display: grid;
+  grid-template-columns: minmax(190px, 283px) minmax(170px, 220px) minmax(320px, 757px) minmax(370px, 421px);
+  grid-template-rows: 61px;
+  height: 61px;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__grid-logo {
+  place-self: center start;
+}
+
+.header__grid-menu {
+  place-self: center end;
+}
+
+.header__text {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  max-height: 41px;
+  max-width: 190px;
+  letter-spacing: 0.06em;
+}
+
+.header__button-menu {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: var(--dark-blue-color);
+  min-width: 151px;
+  height: 54px;
+  border-radius: 10px;
+  border: none;
+}
+
+.header__button-burger {
+  padding-left: 30px;
+  margin-right: 7px;
+}
+
+.header__button-text {
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--white-color);
+}
+
+.header__search {
+  display: grid;
+  /* justify-content: space-between; */
+}
+
+.header__search-input {
+  max-width: 100%;
+  min-height: 54px;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--light-grey-color);
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+  padding: 15px 0 18px 40px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.header__search-button {
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+  background-color: var(--dark-blue-color);
+  width: 101px;
+  min-height: 54px;
+  border-radius: 30px;
+  border: none;
+  place-self: center end;
+}
+
+.header__icons {
+  display: flex;
+  gap: 70px;
+}
+
+.header__icons-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  min-height: 61px;
+}
+
+.header__icons-link {
+  text-align: center;
+}
+
+.header__icons-img {
+  width: 36px;
+  height: 36px;
+}
+
+.header__icons-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media (max-width: 1315px) {
+
+  .header {
+    height: 183px;
+  }
+
+  .header__grid {
+
+    grid-template-columns: minmax(188px, 281px) minmax(155px, 220px) minmax(204px, 757px) minmax(203px, 421px);
+
+    /* убрал чтобы сжималось красиво */
+    /* grid-template-columns: minmax(209px, 283px) minmax(170px, 220px) minmax(243px, 757px) minmax(228px, 421px); */
+    grid-template-rows: 61px 54px;
+    /* height: 61px; */
+    align-items: center;
+    gap: 30px;
+  }
+
+  .header__grid-button-menu {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .header__grid-search {
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+    max-width: 700px;
+  }
+
+  .header__grid-menu {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+  }
+
+  .header__icons {
+    gap: 40px;
+  }
+}

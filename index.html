@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="src/img/favicon.svg">
+  <link rel="icon" type="image/png" href="src/img/favicon.png">
+  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="preload" href="src/fonts/OpenSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="src/fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="src/fonts/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  <title>ShopOnline</title>
+</head>
+
+<body>
+
+  <!-- Хедер -->
+  <header class="header">
+    <div class="container">
+      <div class="header__grid">
+
+        <div class="header__grid-logo">
+          <div class="header__text">
+            Shop<span style="color: #3670C7;">Online</span>
+          </div>
+        </div>
+
+        <div class="header__grid-button-menu">
+          <button class="header__button-menu" form="my-form" id="menu" name="menu" type="submit">
+            <div class="header__button-burger">
+              <img src="src/img/header/sort_menu.svg" alt="Значок меню">
+            </div>
+            <div class="header__button-text">
+              Меню
+            </div>
+          </button>
+        </div>
+
+        <div class="header__grid-search">
+          <div class="header__search">
+            <input class="header__search-input" type="search" name="search" placeholder="Я ищу...">
+            <button class="header__search-button">
+              <img src="src/img/header/Vector_glass.svg" alt="Значок меню">
+            </button>
+          </div>
+        </div>
+
+        <div class="header__grid-menu">
+          <div class="header__icons">
+
+            <a class="header__icons-items" href="#">
+              <img class="header__icons-img" src="src/img/header/person.svg" alt="Иконка профиль">
+              <div class="header__icons-text">Профиль</div>
+
+            </a>
+
+            <a class="header__icons-items" href="#">
+              <img class="header__icons-img" src="src/img/header/shopping_cart.svg" alt="Иконка корзина">
+              <div class="header__icons-text">Корзина</div>
+            </a>
+
+            <a class="header__icons-items" href="#">
+              <img class="header__icons-img" src="src/img/header/favorite.svg" alt="Иконка избранное">
+              <div class="header__icons-text">Избранное</div>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- первая секция -->
+    <section id="first-section" class="banner">
+      <div class="container">
+        <ul class="banner__grid">
+
+          <!-- 1 карточка -->
+          <li class="banner__grid-notebook">
+            <a class="banner__grid-link" href="#">
+              <img class="banner__grid-img" src="src/img/first-section/notebook.jpg" alt="">
+              <p class="banner__grid-notebook-text">-50% на все ноутбуки</p>
+              <!-- Надпись с таймером -->
+              <div class="banner__timer">
+                <div class="banner__timer-title">До конца акции:</div>
+                <div class="banner__timer-wrapper">
+
+                  <div class="banner__timer-item">
+                    <div class="banner__timer-number">3</div>
+                    <div class="banner__timer-text">дня</div>
+                  </div>
+
+                  <div class="banner__timer-item">
+                    <div class="banner__timer-number">8</div>
+                    <div class="banner__timer-text">часов</div>
+                  </div>
+
+                  <div class="banner__timer-item">
+                    <div class="banner__timer-number">43</div>
+                    <div class="banner__timer-text">минуты</div>
+                  </div>
+
+                </div>
+              </div>
+            </a>
+
+          </li>
+
+          <!-- 2 карточка -->
+          <li class="banner__grid-book">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/book.jpg"
+                alt="">
+              <div class="banner__grid-book-text">
+                <div class="banner__grid-book-text-top">Книга -</div>
+                <div class="banner__grid-book-text-bottom">лучший подарок</div>
+              </div>
+            </a>
+          </li>
+
+          <!-- 3 карточка -->
+          <li class="banner__grid-clock">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/clock.jpg"
+                alt="">
+              <div class="banner__grid-clock-text">Время скидок!</div>
+              <div class="banner__grid-clock-circle">-25%</div>
+            </a>
+          </li>
+
+          <!-- 4 карточка -->
+          <li class="banner__grid-shoes-second-pair">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img"
+                src="src/img/first-section/shoes_second_pair.jpg" alt="">
+              <div class="grid-shoes-second-pair-text">
+                <div class="grid-shoes-second-pair-text-top">Вторая пара кроссовок</div>
+                <div class="grid-shoes-second-pair-text-bottom">в подарок!</div>
+              </div>
+
+            </a>
+          </li>
+
+          <!-- 5 карточка -->
+          <li class="banner__grid-idea">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/idea.jpg"
+                alt="">
+              <div class="banner__grid-idea-text">Идеи новогодних
+                подарков</div>
+            </a>
+          </li>
+
+          <!-- 6 карточка -->
+          <li class="banner__grid-shoes40">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/shoes40.jpg"
+                alt="">
+              <div class="banner__grid-shoes40-circle">-40%</div>
+            </a>
+          </li>
+
+          <!-- 7 карточка -->
+          <li class="banner__grid-benefit">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/benefit.jpg"
+                alt="">
+              <div class="banner__grid-benefit-text">Выгодно в декабре!</div>
+              <div class="banner__grid-benefit-circle">-15%</div>
+            </a>
+          </li>
+
+          <!-- 8 карточка -->
+          <li class="banner__grid-2022">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/2022.jpg"
+                alt="">
+              <div class="banner__grid-2022-wrapper">
+                <div class="banner__grid-2022-text">Новогодние украшения</div>
+              </div>
+            </a>
+          </li>
+
+          <!-- 9 карточка -->
+          <li class="banner__grid-girl">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/girl.jpg"
+                alt="">
+              <div class="banner__grid-girl-circle">-55%</div>
+            </a>
+          </li>
+
+          <!-- 10 карточка -->
+          <li class="banner__grid-chemical">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/chemical.jpg"
+                alt="">
+              <div class="banner__grid-chemical-circle">-25%</div>
+              <div class="banner__grid-chemical-text">На бытовую химию</div>
+            </a>
+          </li>
+
+          <!-- 11 карточка -->
+          <li class="banner__grid-balls">
+            <a class="banner__grid-link" href="#"><img class="banner__grid-img" src="src/img/first-section/balls.jpg"
+                alt="">
+
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- вторая секция -->
+    <section id="second-section" class="promo">
+
+    </section>
+
+  </main>
+
+
+</body>
+
+</html>
