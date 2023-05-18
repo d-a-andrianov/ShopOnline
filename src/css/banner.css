@@ -460,7 +460,7 @@
   .grid-shoes-second-pair-text {
     top: 290px;
     max-height: 146px;
-    min-width: 414px;
+    /* min-width: 414px; */
   }
 
   .grid-shoes-second-pair-text-top {
