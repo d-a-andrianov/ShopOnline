@@ -97,13 +97,10 @@ iframe {
   }
 }
 
-section {
-  /* padding: 50px 0; */
-}
-
-header {
-  padding-top: 27px;
-  /* padding: 27px 0 90px 0; */
+@media (max-width: 950px) {
+  .container {
+    padding: 0 34px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -111,6 +108,16 @@ header {
   header {
     padding-top: 38px;
   }
+}
+
+
+section {
+  /* padding: 50px 0; */
+}
+
+header {
+  padding-top: 27px;
+  /* padding: 27px 0 90px 0; */
 }
 
 /* @media (max-width: 1024px) {
