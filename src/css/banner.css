@@ -395,8 +395,10 @@
   }
 
   .banner__timer {
-    top: 195px;
-    left: 314px;
+    top: 336px;
+    left: calc(50% - 236.5px);
+    max-width: 473px;
+    min-height: 104px;
   }
 
   .banner__timer-title {
@@ -678,10 +680,43 @@
 
   .banner__grid-notebook {
     grid-area: notebook;
-    /* margin-bottom: 20px; */
-    /* padding-left: 5px;
-    max-width: 700px;
-    max-height: 280px; */
+  }
+
+  .banner__grid-notebook-text {
+    font-size: 30px;
+    line-height: 39px;
+    top: 65px;
+    left: 82px;
+  }
+
+  .banner__timer {
+    top: 186px;
+    left: calc(50% - 113.5px);
+    max-width: 229px;
+    min-height: 65px;
+  }
+
+  .banner__timer-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .banner__timer-wrapper {
+    gap: 10px;
+  }
+
+  .banner__timer-number {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .banner__timer-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .banner__timer-item {
+    gap: 3px;
   }
 
   .banner__grid-top-img {
