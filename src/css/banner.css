@@ -964,6 +964,135 @@
     left: 29px;
     max-width: 222px;
   }
+
+  .banner__timer {
+    top: 268px;
+    left: calc(50% - 84.5px);
+  }
+
+  .banner__timer-title {
+    font-size: 8px;
+    line-height: 10px;
+    margin-bottom: 6px;
+  }
+
+  .banner__timer-number {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .banner__grid-book-text {
+    top: 75px;
+    left: 10px;
+    max-width: 65px;
+  }
+
+  .banner__timer-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .banner__grid-book-text-top {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+
+  .banner__grid-book-text-bottom {
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  .banner__grid-clock-text {
+    font-size: 12px;
+    line-height: 16px;
+    top: 29px;
+    left: 10px;
+  }
+
+  .banner__grid-clock-circle {
+    top: 74px;
+    left: 75px;
+  }
+
+  .banner__grid-shoes40-circle {
+    top: 5px;
+    left: 4px;
+  }
+
+  .grid-shoes-second-pair-text {
+    display: flex;
+    top: 235px;
+    left: calc(50% - 130.5px);
+    width: 261px;
+    height: 36px;
+    border-radius: 8px;
+  }
+
+  .grid-shoes-second-pair-text-top {
+    font-size: 12px;
+    line-height: 13px;
+    padding: 11px 0 0 25px;
+  }
+
+  .grid-shoes-second-pair-text-bottom {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 8px 0 0 4px;
+  }
+
+  .banner__grid-idea-text {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 17px 0 0 1px;
+    min-width: 181px;
+  }
+
+  .banner__grid-benefit-text {
+    font-size: 12px;
+    line-height: 14px;
+    top: 89px;
+    left: 10px;
+  }
+
+  .banner__grid-benefit-circle {
+    top: 62px;
+    right: 5px;
+  }
+
+  .banner__grid-girl-circle {
+    top: 220px;
+  }
+
+  .banner__grid-chemical-circle {
+    top: 4px;
+    left: 7px;
+  }
+
+  .banner__grid-chemical-text {
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 112px;
+    top: 107px;
+    left: 10px;
+  }
+
+  .banner__grid-2022-wrapper {
+    top: 84px;
+    left: 14px;
+    height: 30px;
+    max-width: 252px;
+    border-radius: 6px;
+  }
+
+  .banner__grid-2022-text {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 7px 41px 0 42px;
+  }
+
+
+
 }
 
 
