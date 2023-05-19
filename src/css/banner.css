@@ -926,8 +926,43 @@
 
 @media (max-width: 530px) {
 
+  .banner__grid {
+    grid-template-columns: minmax(70px, 276px) minmax(70px, 276px) minmax(150px, 400px) minmax(70px, 400px);
+    gap: 20px 5px;
+  }
+}
+
+
+@media (max-width: 350px) {
+
   .banner {
-    display: none;
+    padding: 46px 0 234px 0;
+  }
+
+  .banner__grid {
+
+    grid-template-columns: minmax(130px, 220px) minmax(130px, 220px);
+    grid-template-rows: 340px 130px 118px 280px repeat(2, 118px) repeat(2, 130px) 123px;
+    /* всего 8 рядов */
+    gap: 20px 20px;
+    grid-template-areas:
+      "notebook notebook"
+      "book clock"
+      "shoes40 shoes40"
+      "second-pair second-pair"      
+      "idea idea"
+      "benefit benefit"
+      "girl chemical"
+      "girl balls"
+      "grid-2022 grid-2022";
+  }
+
+  .banner__grid-notebook-text {
+    font-size: 22px;
+    line-height: 29px;
+    top: 50px;
+    left: 29px;
+    max-width: 222px;
   }
 }
 

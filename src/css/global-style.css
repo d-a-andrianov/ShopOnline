@@ -104,7 +104,8 @@ iframe {
   }
 }
 
-@media (max-width: 530px) {
+/* было 530px */
+@media (max-width: 350px) {
   .container {
     padding: 0 20px;
   }
