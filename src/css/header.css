@@ -268,7 +268,7 @@
   }
 
   .header__grid {
-    grid-template-columns: minmax(140px, 200px) minmax(140px, 200px);
+    grid-template-columns: minmax(65px, 200px) minmax(140px, 200px);
     grid-template-rows: 25px repeat(2, 30px);
     gap: 20px 20px;
     grid-template-areas:
@@ -294,8 +294,50 @@
     grid-area: menu;
   }
 
-  .header__grid-logo {
+  .header__text {
     font-size: 18px;
     line-height: 24px;
   }
+
+  .header__button-menu {
+    justify-content: center;
+    min-width: 79px;
+    height: 30px;
+    border-radius: 4px;
+    gap: 2px;
+  }
+
+  .header__button-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .header__button-burger {
+    padding: 0;
+    margin: 0;
+    width: 14px;
+    height: 14px;
+  }
+
+  .header__grid-menu {
+    width: 130px;
+  }
+
+  .header__icons {
+    gap: 20px;
+  }
+
+  .header__icons-items {
+    min-height: 30px;
+  }
+
+  .header__icons-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__icons-text {
+    display: none;
+  }
+
 }
