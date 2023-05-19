@@ -833,6 +833,24 @@
     grid-area: chemical;
   }
 
+  .banner__grid-chemical-circle {
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 15px;
+  }
+
+  .banner__grid-chemical-text {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 100px;
+    top: 89px;
+    left: 14px;
+  }
+
   .banner__grid-benefit {
     grid-area: benefit;
   }
@@ -862,6 +880,19 @@
     grid-area: grid-2022;
   }
 
+  .banner__grid-2022-wrapper {
+    top: 243px;
+    left: 28px;
+    height: 68px;
+    max-width: 347px;
+    border-radius: 12px;
+  }
+
+  .banner__grid-2022-text {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 22px 32px 0 33px;
+  }
 }
 
 /* наверное делать центральные карточки в 2 разных грида, только хз как это прописать */
