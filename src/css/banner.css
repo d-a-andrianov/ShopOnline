@@ -13,6 +13,13 @@
   gap: 60px;
 }
 
+.banner__grid-top-img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
 
 .banner__grid-img {
   object-fit: cover;
@@ -417,7 +424,6 @@
   .banner__grid-book {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    max-width: 276px;
   }
 
   .banner__grid-book-text {
@@ -651,27 +657,35 @@
   .banner__grid {
     
     grid-template-columns: minmax(140px, 276px) minmax(140px, 276px) minmax(220px, 400px) minmax(140px, 400px);
-    grid-template-rows: 280px repeat(2, 140px, 4, 60px) 337px;
+    grid-template-rows: 280px 0px repeat(2, 140px) repeat(4, 60px) 337px;
     /* всего 8 рядов */
     gap: 20px 20px;
     grid-template-areas: 
     "notebook notebook notebook notebook"
+    ". . . ."
     "book clock second-pair second-pair"
     "shoes40 shoes40 second-pair second-pair"
+    "idea idea second-pair second-pair"
+    "idea idea girl chemical"
+    "benefit benefit girl chemical"
+    "benefit benefit girl balls"
+    "grid-2022 grid-2022 grid-2022 grid-2022";
+  }
 
-    "banner__grid-idea banner__grid-idea banner__grid-shoes-second-pair banner__grid-shoes-second-pair"
-
-    "banner__grid-idea banner__grid-idea banner__grid-girl banner__grid-chemical"
-
-    "banner__grid-benefit banner__grid-benefit banner__grid-girl banner__grid-chemical"
-
-    "banner__grid-benefit banner__grid-benefit banner__grid-girl banner__grid-balls"
-
-    "banner__grid-2022 banner__grid-2022 banner__grid-2022 banner__grid-2022";
+  .banner__grid-img {
+    border-radius: 12px;
   }
 
   .banner__grid-notebook {
     grid-area: notebook;
+    /* margin-bottom: 20px; */
+    /* padding-left: 5px;
+    max-width: 700px;
+    max-height: 280px; */
+  }
+
+  .banner__grid-top-img {
+    background-repeat: 16px;
   }
 
   .banner__grid-book {
@@ -688,6 +702,30 @@
 
   .banner__grid-shoes40 {
     grid-area: shoes40;
+  }
+
+  .banner__grid-idea {
+    grid-area: idea;
+  }
+
+  .banner__grid-girl {
+    grid-area: girl;
+  }
+
+  .banner__grid-chemical {
+    grid-area: chemical;
+  }
+
+  .banner__grid-benefit {
+    grid-area: benefit;
+  }
+
+  .banner__grid-balls {
+    grid-area: balls;
+  }
+
+  .banner__grid-2022 {
+    grid-area: grid-2022;
   }
 
 }
