@@ -109,6 +109,7 @@
 
   .header {
     height: 183px;
+    padding-top: 37px;
   }
 
   .header__grid {

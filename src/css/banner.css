@@ -85,7 +85,6 @@
 .banner__grid-book {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  position: relative;
 }
 
 .banner__grid-book-text {
@@ -418,7 +417,7 @@
   .banner__grid-book {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    width: 217px;
+    max-width: 276px;
   }
 
   .banner__grid-book-text {
@@ -575,7 +574,7 @@
   }
 }
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
 
   .banner {
     padding: 50px 0 580px 0;
@@ -641,6 +640,56 @@
     grid-column: 4 / 5;
     grid-row: 6 / 7;
   }
+} */
+
+@media (max-width: 950px) {
+
+  .banner {
+    padding: 50px 0 580px 0;
+  }
+
+  .banner__grid {
+    
+    grid-template-columns: minmax(140px, 276px) minmax(140px, 276px) minmax(220px, 400px) minmax(140px, 400px);
+    grid-template-rows: 280px repeat(2, 140px, 4, 60px) 337px;
+    /* всего 8 рядов */
+    gap: 20px 20px;
+    grid-template-areas: 
+    "notebook notebook notebook notebook"
+    "book clock second-pair second-pair"
+    "shoes40 shoes40 second-pair second-pair"
+
+    "banner__grid-idea banner__grid-idea banner__grid-shoes-second-pair banner__grid-shoes-second-pair"
+
+    "banner__grid-idea banner__grid-idea banner__grid-girl banner__grid-chemical"
+
+    "banner__grid-benefit banner__grid-benefit banner__grid-girl banner__grid-chemical"
+
+    "banner__grid-benefit banner__grid-benefit banner__grid-girl banner__grid-balls"
+
+    "banner__grid-2022 banner__grid-2022 banner__grid-2022 banner__grid-2022";
+  }
+
+  .banner__grid-notebook {
+    grid-area: notebook;
+  }
+
+  .banner__grid-book {
+    grid-area: book;
+  }
+
+  .banner__grid-clock {
+    grid-area: clock;
+  }
+
+  .banner__grid-shoes-second-pair {
+    grid-area: second-pair;
+  }
+
+  .banner__grid-shoes40 {
+    grid-area: shoes40;
+  }
+
 }
 
 /* наверное делать центральные карточки в 2 разных грида, только хз как это прописать */
