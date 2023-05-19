@@ -727,20 +727,93 @@
     grid-area: book;
   }
 
+  .banner__grid-book-text {
+    top: 49px;
+    left: 9px;
+  }
+
+  .banner__grid-book-text-top {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .banner__grid-book-text-bottom {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
   .banner__grid-clock {
     grid-area: clock;
+  }
+
+  .banner__grid-clock-text {
+    top: 16px;
+    left: 5px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .banner__grid-clock-circle {
+    top: 80px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 15px;
   }
 
   .banner__grid-shoes-second-pair {
     grid-area: second-pair;
   }
 
+  .grid-shoes-second-pair-text {
+    display: flex;
+    top: 309px;
+    left: 11px;
+    max-height: 61px;
+    min-width: 359px;
+    border-radius: 12px;
+  }
+
+  .grid-shoes-second-pair-text-top {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 26px 0px 0 26px;
+  }
+
+  .grid-shoes-second-pair-text-bottom {
+    font-size: 26px;
+    line-height: 29px;
+    padding: 18px 0px 0 6px;
+  }
+
   .banner__grid-shoes40 {
     grid-area: shoes40;
   }
 
+  .banner__grid-shoes40-circle {
+    top: 9px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 15px;
+  }
+
   .banner__grid-idea {
     grid-area: idea;
+  }
+  
+  .banner__grid-idea-text {
+    top: 73px;
+    left: 9px;
+    max-width: 144px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 0 0 10px;
+}
   }
 
   .banner__grid-girl {
