@@ -957,6 +957,10 @@
       "grid-2022 grid-2022";
   }
 
+  .banner__grid-top-img, .header__icons-img {
+    border-radius: 8px;
+  }
+
   .banner__grid-notebook-text {
     font-size: 22px;
     line-height: 29px;
