@@ -66,7 +66,7 @@
 .banner__timer-wrapper {
   display: flex;
   align-items: flex-end;
-  gap: 30px;  
+  gap: 30px;
 }
 
 .banner__timer-item {
@@ -374,7 +374,7 @@
   }
 
   .banner__grid {
-    
+
     grid-template-columns: minmax(200px, 276px) minmax(200px, 276px) minmax(200px, 276px) minmax(200px, 276px);
     /* grid-template-columns: repeat(4, 217px); */
     grid-template-rows: 314px repeat(4, 217px) 418px;
@@ -561,7 +561,7 @@
     grid-row: 5 / 6;
 
   }
-  
+
   .banner__grid-2022 {
     grid-column: 1 / 5;
     grid-row: 6 / 7;
@@ -657,21 +657,21 @@
   }
 
   .banner__grid {
-    
+
     grid-template-columns: minmax(140px, 276px) minmax(140px, 276px) minmax(220px, 400px) minmax(140px, 400px);
     grid-template-rows: 280px 0px repeat(2, 140px) repeat(4, 60px) 337px;
     /* всего 8 рядов */
     gap: 20px 20px;
-    grid-template-areas: 
-    "notebook notebook notebook notebook"
-    ". . . ."
-    "book clock second-pair second-pair"
-    "shoes40 shoes40 second-pair second-pair"
-    "idea idea second-pair second-pair"
-    "idea idea girl chemical"
-    "benefit benefit girl chemical"
-    "benefit benefit girl balls"
-    "grid-2022 grid-2022 grid-2022 grid-2022";
+    grid-template-areas:
+      "notebook notebook notebook notebook"
+      ". . . ."
+      "book clock second-pair second-pair"
+      "shoes40 shoes40 second-pair second-pair"
+      "idea idea second-pair second-pair"
+      "idea idea girl chemical"
+      "benefit benefit girl chemical"
+      "benefit benefit girl balls"
+      "grid-2022 grid-2022 grid-2022 grid-2022";
   }
 
   .banner__grid-img {
@@ -805,7 +805,7 @@
   .banner__grid-idea {
     grid-area: idea;
   }
-  
+
   .banner__grid-idea-text {
     top: 73px;
     left: 9px;
@@ -813,7 +813,7 @@
     font-size: 16px;
     line-height: 19px;
     padding: 10px 0 0 10px;
-}
+  }
 
   .banner__grid-girl {
     grid-area: girl;
@@ -894,5 +894,42 @@
     padding: 22px 32px 0 33px;
   }
 }
+
+@media (max-width: 760px) {
+
+  .banner__grid {
+    grid-template-columns: minmax(110px, 276px) minmax(110px, 276px) minmax(190px, 400px) minmax(110px, 400px);
+    gap: 20px 5px;
+  }
+
+  .grid-shoes-second-pair-text {
+    display: block;
+    min-width: 200px;
+  }
+
+  .grid-shoes-second-pair-text-top {
+    padding: 5px 0 0 10px;
+  }
+
+  .grid-shoes-second-pair-text-bottom {
+    padding: 5px 0 0 10px;
+  }
+}
+
+@media (max-width: 620px) {
+
+  .banner__grid {
+    grid-template-columns: minmax(80px, 276px) minmax(80px, 276px) minmax(160px, 400px) minmax(80px, 400px);
+    gap: 20px 5px;
+  }
+}
+
+@media (max-width: 530px) {
+
+  .banner {
+    display: none;
+  }
+}
+
 
 /* наверное делать центральные карточки в 2 разных грида, только хз как это прописать */
