@@ -814,10 +814,19 @@
     line-height: 19px;
     padding: 10px 0 0 10px;
 }
-  }
 
   .banner__grid-girl {
     grid-area: girl;
+  }
+
+  .banner__grid-girl-circle {
+    top: 160px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 15px;
   }
 
   .banner__grid-chemical {
@@ -826,6 +835,23 @@
 
   .banner__grid-benefit {
     grid-area: benefit;
+  }
+
+  .banner__grid-benefit-text {
+    font-size: 16px;
+    line-height: 19px;
+    top: 102px;
+    left: 20px;
+  }
+
+  .banner__grid-benefit-circle {
+    top: 80px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 15px;
   }
 
   .banner__grid-balls {
