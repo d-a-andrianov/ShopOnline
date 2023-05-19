@@ -104,6 +104,12 @@ iframe {
   }
 }
 
+@media (max-width: 760px) {
+  .container {
+    padding: 0 34px 0 40px;
+  }
+}
+
 /* было 530px */
 @media (max-width: 350px) {
   .container {
