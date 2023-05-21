@@ -303,7 +303,8 @@
   }
 
   .header__grid {
-    grid-template-columns: minmax(65px, 200px) minmax(140px, 200px);
+    
+    grid-template-columns: minmax(125px, 200px) minmax(140px, 200px);
     grid-template-rows: 25px repeat(2, 30px);
     gap: 20px 20px;
     grid-template-areas:
