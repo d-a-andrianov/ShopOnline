@@ -2,6 +2,16 @@
   padding: 90px 0 189px 0;
 }
 
+/* скрытый h1 */
+.banner__title-visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+
 .banner__grid {
   display: grid;
 
@@ -932,8 +942,8 @@
   }
 }
 
-
-@media (max-width: 350px) {
+/* было 350px */
+@media (max-width: 460px) {
 
   .banner {
     padding: 46px 0 234px 0;

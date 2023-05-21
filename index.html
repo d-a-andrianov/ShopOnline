@@ -30,7 +30,7 @@
         </div>
 
         <div class="header__grid-button-menu">
-          <button class="header__button-menu" form="my-form" id="menu" name="menu" type="submit">
+          <button class="header__button-menu" form="my-form" id="menu" name="menu" type="button">
             <div class="header__button-burger">
               <img src="src/img/header/sort_menu.svg" alt="Значок меню">
             </div>
@@ -43,7 +43,7 @@
         <div class="header__grid-search">
           <div class="header__search">
             <input class="header__search-input" type="search" name="search" placeholder="Я ищу...">
-            <button class="header__search-button">
+            <button class="header__search-button" form="my-form" id="search-button" name="search-button" type="button">
               <img class="header__search-button-img" src="src/img/header/Vector_glass.svg" alt="Значок лупы">
             </button>
           </div>
@@ -79,6 +79,8 @@
     <!-- первая секция -->
     <section id="first-section" class="banner">
       <div class="container">
+        <!-- скрытый h1 -->
+        <h1 class="banner__title-visually-hidden">Новогодние скидки</h1> 
         <ul class="banner__grid">
 
           <!-- 1 карточка -->

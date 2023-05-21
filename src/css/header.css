@@ -252,24 +252,31 @@
 
 } */
 
-@media (max-width: 530px) {
+@media (max-width: 768px) {
 
   .header__grid {
     grid-template-columns: minmax(105px, 212px) minmax(40px, 130px) minmax(59px, 312px) minmax(152px, 286px);
     gap: 29px 17px;
   }
 
+  .header__grid-menu {
+    width: 207px;
+    place-self: start center;
+  }
+
   .header__icons {
-    gap: 15px;
+    gap: 29px;
   }
 
   .header__search-input {
-    max-width: 299px;
+    max-width: 440px;
   }
 
   .header__search-button {
     grid-column: 5 / 6;
   }
+
+
 
 }
 
@@ -288,8 +295,8 @@
   }
 } */
 
-/* было 530px */
-@media (max-width: 350px) {
+/* было 350px */
+@media (max-width: 460px) {
 
   .header {
     padding-top: 20px;

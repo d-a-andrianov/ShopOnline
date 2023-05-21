@@ -104,14 +104,15 @@ iframe {
   }
 }
 
-@media (max-width: 760px) {
+/* с этим паддингом не ясно, ставил 2 разных, но это не по макету */
+@media (max-width: 768px) {
   .container {
-    padding: 0 34px 0 40px;
+    padding: 0 34px;
   }
 }
 
-/* было 530px */
-@media (max-width: 350px) {
+/* было 350px */
+@media (max-width: 460px) {
   .container {
     padding: 0 20px;
   }
