@@ -225,7 +225,7 @@
   .header__grid-menu {
     grid-column: 4 / 5;
     grid-row: 1 / 2;
-    width: 208px;
+    width: 219px;
   }
 
   .header__icons {
@@ -265,7 +265,11 @@
   }
 
   .header__icons {
-    gap: 29px;
+    gap: 24px;
+  }
+
+  .header__grid-search {
+    max-width: 340px;
   }
 
   .header__search-input {
@@ -315,6 +319,7 @@
 
   .header__grid-search {
     grid-area: search;
+    max-width: 740px;
   }
 
   .header__grid-menu {

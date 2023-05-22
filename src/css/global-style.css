@@ -95,6 +95,7 @@ iframe {
 @media (max-width: 1315px) {
   .container {
     padding: 0 42px;
+    max-width: 1024px;
   }
 }
 
@@ -115,6 +116,7 @@ iframe {
 @media (max-width: 500px) {
   .container {
     padding: 0 20px;
+    max-width: 500px;
   }
 }
 
