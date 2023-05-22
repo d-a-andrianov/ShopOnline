@@ -269,7 +269,7 @@
   }
 
   .header__grid-search {
-    max-width: 340px;
+    max-width: 3;
   }
 
   .header__search-input {
@@ -319,8 +319,8 @@
 
   .header__grid-search {
     grid-area: search;
-    max-width: 740px;
   }
+
 
   .header__grid-menu {
     grid-area: menu;
