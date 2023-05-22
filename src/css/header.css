@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: minmax(190px, 283px) minmax(170px, 220px) minmax(320px, 757px) minmax(370px, 421px);
   grid-template-rows: 61px;
-  height: 61px;
+  /* height: 61px; */
   align-items: center;
   gap: 30px;
 }
@@ -255,12 +255,12 @@
 @media (max-width: 768px) {
 
   .header__grid {
-    grid-template-columns: minmax(105px, 212px) minmax(40px, 130px) minmax(59px, 312px) minmax(152px, 286px);
+    grid-template-columns: minmax(105px, 212px) minmax(40px, 130px) minmax(191px, 312px) minmax(153px, 286px);
     gap: 29px 17px;
   }
 
   .header__grid-menu {
-    width: 207px;
+    width: 240px;
     place-self: start center;
   }
 
@@ -269,34 +269,25 @@
   }
 
   .header__search-input {
-    max-width: 440px;
+    max-width: 540px;
   }
 
   .header__search-button {
     grid-column: 5 / 6;
   }
-
-
-
 }
 
-/*
+@media (max-width: 740px) {
 
-  .header__search-button {
-    grid-column: 5 / 6;
-    grid-row: 1 / 2;
-    place-self: center end;
+  .header__grid {
+    grid-template-columns: minmax(105px, 212px) minmax(40px, 130px) minmax(59px, 312px) minmax(227px, 286px);
+    gap: 29px 17px;
   }
+}
 
-  .header__search-input {
-    grid-column: 4 / 6;
-    grid-row: 1 / 2;
-    max-width: 299px;
-  }
-} */
 
-/* было 350px */
-@media (max-width: 460px) {
+/* было 460px */
+@media (max-width: 500px) {
 
   .header {
     padding-top: 20px;
