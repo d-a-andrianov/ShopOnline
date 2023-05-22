@@ -284,8 +284,13 @@
 @media (max-width: 740px) {
 
   .header__grid {
-    grid-template-columns: minmax(105px, 212px) minmax(40px, 130px) minmax(59px, 312px) minmax(227px, 286px);
+    grid-template-columns: minmax(105px, 212px) minmax(40px, 130px) minmax(22px, 312px) minmax(227px, 286px);
     gap: 29px 17px;
+  }
+  
+  .header__grid-menu {
+    width: 206px;
+    place-self: end;
   }
 }
 
@@ -306,7 +311,6 @@
       "logo logo"
       "button menu"
       "search search";
-
   }
 
   .header__grid-logo {
@@ -317,8 +321,14 @@
     grid-area: button;
   }
 
+  .header__search {
+    place-self: end;
+  }
+
+
   .header__grid-search {
     grid-area: search;
+    max-width: 440px;
   }
 
 
@@ -372,12 +382,7 @@
     display: none;
   }
 
-  .header__grid-search {
-    max-width: 280px;
-  }
-
   .header__search-input {
-    max-width: 100%;
     min-height: 30px;
     font-size: 8px;
     line-height: 10px;
